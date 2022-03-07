@@ -1,0 +1,66 @@
+.topcomponent{
+    display: flex;
+    margin-bottom: 40px;    
+}
+.topcomponent__image{
+    width: 250px;
+}
+
+.topcomponent__info{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.topcomponent__userInfoContainer{
+    justify-self: flex-end;
+    margin-top: 60px;
+}
+
+.topcomponent__userImage{
+    width: 80px;
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.topcomponent__userInfoContainerInfo{
+    align-self: flex-end;
+}
+
+.topcomponent__userInfoContainerAddress{
+    color: #a1a5b0;
+}
+
+.topcomponent__userInfoContainerUserName{
+    color: aqua;
+}
+
+.topcomponent__infoTitle{
+    font-size: 60px;
+}
+
+.topcomponent__userInfoContainer{
+    display: flex;
+}
+
+.topcomponent__socialmedia{
+    align-self: flex-end;
+    margin-left: auto;
+    display: flex;
+    
+}
+
+.topcomponent__socialmediaImageContainer{
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 15px;     
+}
+
+.topcomponent__socialmediaImage{
+    width: 50px;    
+}
